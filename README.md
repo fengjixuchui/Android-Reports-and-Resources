@@ -12,11 +12,25 @@
 
 --------
 
+### Insecure deeplinks
+
+#### Sensitive information disclosure
+
+[https://hackerone.com/reports/401793](https://hackerone.com/reports/401793)
+
 ### RCE
 
 #### RCE in TinyCards for Android
 
-[https://hackerone.com/reports/281605](https://hackerone.com/reports/281605)
+[https://hackerone.com/reports/281605](https://hackerone.com/reports/281605) - TinyCards made this report private.
+
+--------
+
+### SQL Injection
+
+#### SQL Injection in Content Provider
+
+[https://hackerone.com/reports/291764](https://hackerone.com/reports/291764)
 
 --------
 
@@ -29,6 +43,10 @@
 --------
 
 ### Steal files
+
+#### Vulnerable to local file steal, Javascript injection, Open redirect
+
+[https://hackerone.com/reports/499348](https://hackerone.com/reports/499348)
 
 #### Token leakage due to stolen files via unprotected Activity
 
@@ -66,9 +84,21 @@
 
 [https://hackerone.com/reports/205000](https://hackerone.com/reports/205000)
 
+#### Bypass PIN/Fingerprint lock
+
+[https://hackerone.com/reports/331489](https://hackerone.com/reports/331489)
+
+#### Bypass lock protection
+
+[https://hackerone.com/reports/490946](https://hackerone.com/reports/490946)
+
+#### Bypass of biometrics security functionality
+
+[https://hackerone.com/reports/637194](https://hackerone.com/reports/637194)
+
 --------
 
-### XSS 
+### XSS
 
 #### HTML Injection in BatterySaveArticleRenderer WebView
 
@@ -116,6 +146,22 @@
 
 --------
 
+### CSRF
+
+#### Deeplink leads to CSRF in follow action
+
+[https://hackerone.com/reports/583987](https://hackerone.com/reports/583987)
+
+---
+
+### Case sensitive account collisions
+
+#### overwrite account associated with email via android application
+
+[https://hackerone.com/reports/187714](https://hackerone.com/reports/187714)
+
+---
+
 ### Intercept Broadcasts
 
 #### Possible to intercept broadcasts about file uploads
@@ -132,6 +178,10 @@
 --------
 
 ## Practice Apps
+
+#### InjuredAndroid
+
+[A vulnerable Android application with ctf examples based on bug bounty findings, exploitation concepts, and pure creativity.](https://github.com/B3nac/InjuredAndroid)
 
 #### Android-InsecureBankv2
 
@@ -163,7 +213,7 @@
 
 [Android Webview Vulnerabilities](https://pentestlab.blog/2017/02/12/android-webview-vulnerabilities/)
 
-[Android reverse engineering recon](https://b3nac.github.io/android/recon/2017/11/10/Setup-and-tips-for-Android-APK-recon.html)
+[Android reverse engineering recon](https://b3nac.com/posts/2017-11-10-Setup-and-tips-for-Android-APK-recon.html)
 
 [Webview addjavascriptinterface RCE](https://labs.mwrinfosecurity.com/blog/webview-addjavascriptinterface-remote-code-execution/)
 
